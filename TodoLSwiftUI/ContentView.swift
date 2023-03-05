@@ -11,7 +11,7 @@ import SwiftUI
 struct ContentView: View {
     @State var isShowModal = false
     @State var isCounting = false
-    @ObservedObject var timer = TimerModel() //時間をはかるためのクラス
+    @ObservedObject var timer = TimerModel()
     
     var body: some View {
         NavigationView {
