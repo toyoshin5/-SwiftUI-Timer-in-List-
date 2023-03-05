@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F03DDDF729B47CDD00F86457 /* TimerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03DDDF629B47CDD00F86457 /* TimerModel.swift */; };
+		F03DDDF929B47EBB00F86457 /* screenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = F03DDDF829B47EBB00F86457 /* screenshot.png */; };
 		F0BDA8A029B45A8800DC5473 /* TodoLSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0BDA89F29B45A8800DC5473 /* TodoLSwiftUIApp.swift */; };
 		F0BDA8A229B45A8800DC5473 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0BDA8A129B45A8800DC5473 /* ContentView.swift */; };
 		F0BDA8A429B45A8900DC5473 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0BDA8A329B45A8900DC5473 /* Assets.xcassets */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F03DDDF629B47CDD00F86457 /* TimerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerModel.swift; sourceTree = "<group>"; };
+		F03DDDF829B47EBB00F86457 /* screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = screenshot.png; path = ../../../../../var/folders/l3/p0242_ds2kx0xdwg8_5kv5pc0000gn/T/TemporaryItems/NSIRD_screencaptureui_z2lqbm/screenshot.png; sourceTree = "<group>"; };
 		F0BDA89C29B45A8800DC5473 /* TodoLSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodoLSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0BDA89F29B45A8800DC5473 /* TodoLSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoLSwiftUIApp.swift; sourceTree = "<group>"; };
 		F0BDA8A129B45A8800DC5473 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -74,6 +78,7 @@
 		F0BDA89329B45A8800DC5473 = {
 			isa = PBXGroup;
 			children = (
+				F03DDDF829B47EBB00F86457 /* screenshot.png */,
 				F0BDA89E29B45A8800DC5473 /* TodoLSwiftUI */,
 				F0BDA8AF29B45A8900DC5473 /* TodoLSwiftUITests */,
 				F0BDA8B929B45A8900DC5473 /* TodoLSwiftUIUITests */,
@@ -98,6 +103,7 @@
 				F0BDA8A129B45A8800DC5473 /* ContentView.swift */,
 				F0BDA8A329B45A8900DC5473 /* Assets.xcassets */,
 				F0BDA8A529B45A8900DC5473 /* Preview Content */,
+				F03DDDF629B47CDD00F86457 /* TimerModel.swift */,
 			);
 			path = TodoLSwiftUI;
 			sourceTree = "<group>";
@@ -231,6 +237,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F03DDDF929B47EBB00F86457 /* screenshot.png in Resources */,
 				F0BDA8A729B45A8900DC5473 /* Preview Assets.xcassets in Resources */,
 				F0BDA8A429B45A8900DC5473 /* Assets.xcassets in Resources */,
 			);
@@ -258,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F0BDA8A229B45A8800DC5473 /* ContentView.swift in Sources */,
+				F03DDDF729B47CDD00F86457 /* TimerModel.swift in Sources */,
 				F0BDA8A029B45A8800DC5473 /* TodoLSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
